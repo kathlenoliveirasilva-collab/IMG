@@ -1,1 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galeria com efeito fumê</title>
+  <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+  <main>
+    <div class="galeria">
+      <button type="button" aria-label="Ampliar imagem de Dunas do deserto">
+        <img src="imagens/img1.png" alt="Dunas do deserto">
+      </button>
 
+      <button type="button" aria-label="Ampliar imagem de Coala na natureza">
+        <img src="imagens/img2.png" alt="Coala na natureza">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem de Água-viva luminosa">
+        <img src="imagens/img3.png" alt="Água-viva luminosa">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem de Flores aquáticas">
+        <img src="imagens/img4.png" alt="Flores aquáticas">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem de Casas à beira do lago">
+        <img src="imagens/img5.png" alt="Casas à beira do lago">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem de Rio na floresta">
+        <img src="imagens/img6.png" alt="Rio na floresta">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem de Paisagem montanhosa">
+        <img src="imagens/img7.jpg" alt="Paisagem montanhosa">
+      </button>
+
+      <button type="button" aria-label="Ampliar imagem de Praia tropical">
+        <img src="imagens/img8.jpg" alt="Praia tropical">
+      </button>
+    </div>
+  </main>
+
+  <dialog class="ampliacao" aria-label="Imagem ampliada">
+    <button class="fechar" type="button"
+      aria-label="Fechar imagem ampliada">
+      &times;
+    </button>
+
+    <img class="imagem-ampliada" alt="">
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
